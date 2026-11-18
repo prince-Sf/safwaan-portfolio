@@ -12,7 +12,7 @@ This portfolio presents Safwaan's selected projects, technical capabilities, exp
 
 ## Website Sections
 
-- **Selected Work** — Corelytics, LatentSpace, Visagenix, and Cognicare.
+- **Selected Work** — Obscura (a privacy-preserving browser agent engineering prototype), Corelytics, LatentSpace, Visagenix, and Cognicare.
 - **About** — Builder-focused biography, education timeline, current direction, and interests.
 - **Capabilities** — AI/ML, software, and systems areas of practice.
 - **Experiments** — Smaller explorations including local LLMs, embeddings, FAISS, graph clustering, computer vision, ESP32 robotics, and AI risk analysis.
@@ -28,7 +28,7 @@ This portfolio presents Safwaan's selected projects, technical capabilities, exp
 - Reduced-motion support through `prefers-reduced-motion`.
 - CSS-based project previews and restrained hover interactions.
 - Inline SVG icons for contact and social links.
-- Corelytics project card linked to its live application; the other projects remain non-linked case-study previews.
+- Corelytics links to its live application; Obscura and Visagenix link to their source repositories, while LatentSpace and Cognicare remain non-linked case-study previews.
 - Subtle grid, orbital, border, and texture details implemented in CSS.
 
 ## Technologies Used
@@ -51,6 +51,7 @@ safwaan-portfolio/
 ├── js/
 │   └── main.js
 ├── index.html
+├── CNAME
 ├── .gitignore
 └── README.md
 ```
@@ -69,7 +70,7 @@ The portfolio is deployed through GitHub Pages from the repository's `master` br
 
 ## Custom Domain
 
-The current checkout does not contain a `CNAME` file, so the repository-side custom-domain configuration cannot be verified from the available files. The intended custom domain is [safwaan-aiml.me](https://safwaan-aiml.me).
+The repository includes a `CNAME` file configured for the custom domain [safwaan-aiml.me](https://safwaan-aiml.me).
 
 ## Updating the Website
 
@@ -94,6 +95,7 @@ GitHub Pages will deploy the pushed changes according to the repository's Pages 
 
 - [Live portfolio](https://safwaan-aiml.me)
 - [GitHub repository](https://github.com/prince-Sf/safwaan-portfolio)
+- [Obscura repository](https://github.com/prince-Sf/Obscura)
 - [GitHub profile](https://github.com/prince-Sf)
 - [LinkedIn](https://www.linkedin.com/in/safwaan-mulla-012a78371)
 
